@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin:0px;
+  
+    box-sizing:border-box;
+
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-left:70px ;
+    margin-right:70px ;
+    font-size: 17px;
+    
+
+}
+.logo{
+
+
+ height: 75px;
+ width: 100px;
+
+ float: left;
+}
+.logo img{
+    width:100px;
+   
+ 
+
+}
+.Navigation{
+   
+    float: right;
+    padding-top: 20px;
+    
+}
+.Navigation a{
+   text-decoration: none;
+    font-weight:bold;
+   color: black;
+    padding: 20px;
+}
+
+.banner h1{ padding: 20px;}
+.banner{
+    clear:both;
+    background-image:url("/banner.jpg");
+    background-position:center;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 40px 80px 40px 80px;
+}
+.heading-text h3{ padding: 20px; }
+.heading-text{
+    
+    text-align: center;
+    padding: 40px 60px 40px 60px;
+
+}
+.button a{ 
+    background-color: greenyellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.button{
+    text-align: center;
+    padding: 30px;
+}
+.services{
+    text-align: center;
+    padding: 20px;
+}
+.services-1 img {
+    width: 100%;
+    
+}
+.services-1 h5,p { padding: 10px;}
+.services-1{
+    text-align: left;
+    
+    width: 25%;
+  
+    padding: 25px;
+    float: left;
+
+}
+.about-us img{
+    float: right;}
+
+.tagline {
+   
+    color: black;
+    padding-top: 30px;
+}
+.about-us h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.about-us h2+p{
+
+    border-bottom: 50px  solid white;
+    font-size: 12px ;
+    padding: 40px 0px 0px 0px;
+}
+.about-us{
+    float: left;
+    width: 60%;
+   height: 300px;
+   
+
+}
+.about-us a{
+  
+
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+.about-us-pic img{
+    width: 30%;
+    float: right;
+    border-bottom: 70px solid white;
+    }
+
+    .question h1{
+        padding: 20px;
+    }
+.question{
+    clear:both;
+    background-image:url("/qurestions-banner.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    text-align: center;
+    padding: 40px 60px 40px 60px;
+
+}
+.question p{
+    padding: 20px 300px 20px 300px;
+
+}
+.question a{
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+.list-of-contractor h3{
+    
+    padding: 20px;
+}
+.list-of-contractor{
+    padding-top: 40px;
+    padding-bottom: 40px;
+ 
+}
+.table table tr th,td{ 
+    padding: 20px;
+    border-bottom: 1px solid rgb(204, 202, 202);
+}
+.table table{
+  border-collapse:collapse;
+  border-spacing: 5px;
+  
+    width: 100%;
+}
+#first-row{
+    border-bottom: 1px solid black;
+    background-color: rgb(231, 226, 226);
+}
+.form{
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+    float: left;
+
+}
+
+.contact-us{
+    margin-top: 120px;
+    background-color:rgb(231, 226, 226);
+
+    width: 50%;
+    padding: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.contact-us img{
+    width: 100%;
+}
+.contact-us ul{
+   
+   list-style-position: inside;
+   list-style-type:decimal;
+}
+input[type="text"],
+input[type="date"],
+select,textarea ,#browsers{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.form label{
+    font-size: 18px;
+    padding-bottom: 20px;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+ }
+ input[type="button"]{
+    background-color: greenyellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .form{
+    padding-bottom: ;
+  }
+  .location{
+    clear: both;
+    background-color:rgb(231, 226, 226) ;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  footer{
+    background-color: rgb(68, 64, 64);
+    color: white;
+    text-align: center;
+
+  }
+  .location a{ 
+    padding-left: 20px;
+   
+    color: rgb(57, 57, 255);
+    }
+    input[type="button"]:hover{
+        color:blue;
+        background-color: rgb(231, 226, 226);
+}
+        
+ a:hover{
+    color:blue;
+    background-color: rgb(231, 226, 226);
+ }   
+.services-1:hover{
+    color:blue;
+    background-color: rgb(231, 226, 226);
+}
